@@ -1,0 +1,27 @@
+[package]
+name = "team"
+version = "0.1.0"
+authors = ["wy"]
+description = """A rust toolbox lib for fun"""
+documentation = ""
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+edition = "2021"
+publish = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "team"
+path = "core/lib.rs"
+
+[dependencies]
+runtime = { path = "member/runtime" }
+
+[workspace]
+resolver = "2"
+members = [
+    "member/runtime",
+    # ------- internal -------
+    "examples",
+]

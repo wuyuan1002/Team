@@ -1,0 +1,12 @@
+[package]
+name = "examples"
+version = "0.0.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+team = { path = ".." }
+
+[[example]]
+name = "ex"
+path = "ex.rs"
