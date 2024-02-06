@@ -1,13 +1,13 @@
 [package]
-name = "runtime"
+name = "team-runtime"
 version = "0.1.0"
 edition = "2021"
-publish = false
+publish = true
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [lib]
-name = "runtime"
+name = "team_runtime"
 path = "src/lib.rs"
 
 [dependencies]

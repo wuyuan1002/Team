@@ -16,7 +16,7 @@ name = "team"
 path = "core/lib.rs"
 
 [dependencies]
-runtime = { version = "0.1.0", path = "member/runtime" }
+team-runtime = { version = "0.1.0", path = "member/runtime" }
 
 [workspace]
 resolver = "2"

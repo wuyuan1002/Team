@@ -10,12 +10,12 @@ dependencies = [
 ]
 
 [[package]]
-name = "runtime"
-version = "0.1.0"
-
-[[package]]
 name = "team"
 version = "0.1.0"
 dependencies = [
- "runtime",
+ "team-runtime",
 ]
+
+[[package]]
+name = "team-runtime"
+version = "0.1.0"
