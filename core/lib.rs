@@ -1,2 +1,2 @@
 
-pub extern crate team_runtime as rt;
+pub extern crate team_runtime as runtime;

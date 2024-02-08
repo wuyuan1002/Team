@@ -1,4 +1,4 @@
-use team::rt::future::future::print_test;
+use team::runtime::task::future::print_test;
 
 fn main() {
     println!("------- ex main -------");
