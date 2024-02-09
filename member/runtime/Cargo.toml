@@ -1,8 +1,8 @@
 [package]
 name = "team-runtime"
 version = "0.1.0"
-authors = ["wy"]
-description = """Team crate member - runtime"""
+authors = ["wuyuan"]
+description = """team crate member - runtime"""
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/wuyuan1002/team"
 readme = "../../README.md"

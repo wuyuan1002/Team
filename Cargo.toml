@@ -1,7 +1,7 @@
 [package]
 name = "team"
 version = "0.1.0"
-authors = ["wy"]
+authors = ["wuyuan"]
 description = """A rust toolbox lib for fun"""
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/wuyuan1002/team"
