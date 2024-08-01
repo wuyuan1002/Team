@@ -22,6 +22,8 @@ team-runtime = { version = "0.1.0", path = "member/runtime" }
 resolver = "2"
 members = [
     "member/runtime",
-    # ------- internal -------
-    "examples",
 ]
+
+[[example]]
+name = "ex"
+path = "examples/ex.rs"
