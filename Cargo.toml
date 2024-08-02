@@ -14,6 +14,7 @@ publish = true
 [lib]
 name = "team"
 path = "core/lib.rs"
+test = true
 
 [dependencies]
 team-runtime = { version = "0.1.0", path = "member/runtime" }
