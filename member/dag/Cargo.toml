@@ -1,8 +1,8 @@
 [package]
-name = "team-runtime"
+name = "team-dag"
 version = "0.1.0"
 authors = ["wuyuan"]
-description = """team crate member - runtime"""
+description = """team crate member - dag"""
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/wuyuan1002/team"
 readme = "../../README.md"
@@ -12,13 +12,8 @@ publish = true
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [lib]
-name = "runtime"
+name = "dag"
 path = "src/lib.rs"
 test = true
 
 [dependencies]
-num_cpus = "1.16.0"
-
-[[test]]
-name = "test"
-path = "tests/te.rs"

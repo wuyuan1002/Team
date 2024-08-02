@@ -17,11 +17,13 @@ path = "core/lib.rs"
 test = true
 
 [dependencies]
+team-dag = { version = "0.1.0", path = "member/dag" }
 team-runtime = { version = "0.1.0", path = "member/runtime" }
 
 [workspace]
 resolver = "2"
 members = [
+    "member/dag",
     "member/runtime",
 ]
 

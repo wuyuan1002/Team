@@ -1,2 +1,3 @@
 
-pub extern crate team_runtime as runtime;
+pub extern crate dag as dag;
+pub extern crate runtime as runtime;
