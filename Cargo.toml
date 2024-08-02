@@ -1,6 +1,6 @@
 [package]
 name = "team"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["wuyuan"]
 description = """A rust toolbox lib for fun"""
 license = "MIT OR Apache-2.0"
@@ -18,7 +18,7 @@ test = true
 
 [dependencies]
 team-dag = { version = "0.1.0", path = "member/dag" }
-team-runtime = { version = "0.1.0", path = "member/runtime" }
+team-runtime = { version = "0.2.0", path = "member/runtime" }
 
 [workspace]
 resolver = "2"
