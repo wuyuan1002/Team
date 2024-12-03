@@ -1,4 +1,4 @@
-use team_runtime::task::future::print_test;
+use runtime::task::future::print_test;
 
 #[test]
 fn test1() {
